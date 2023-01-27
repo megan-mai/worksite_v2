@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'eb';
-  src: url(EBGaramond12-Regular.otff);
+  font-family: semibold;
+    src: url(FontsFree-Net-Inter-Medium.ttf);
 }
 
 * {
@@ -193,8 +193,7 @@ font-style:italic;
 
 .name {
   /* float: left; */
-font-weight: 400;
-
+font-family: semibold;
 }
 .mobileicon{
   width: 24px;
@@ -431,10 +430,6 @@ video{
 } */
 @media only screen and (max-width: 800px) {
 
-  .profile_pic{
-
-  }
-
 .bio{
   width: 60%;
 }
@@ -489,10 +484,6 @@ video{
   line-height: 28px;
 }
 
-.profile_pic{
-  width: 64px;
-  height: 64px;
-}
 
 .bio{
   width: 80%;
