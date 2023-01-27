@@ -89,7 +89,6 @@ a:hover {
 
 body {
   font-family: inter;
-  font-weight: lighter;
   height: 100%;
   font-size: 16px;
   margin: 0px;
@@ -195,7 +194,8 @@ font-style:italic;
 
 .name {
   /* float: left; */
-  width: auto;
+font-weight: 400px;
+
 }
 .mobileicon{
   width: 24px;
