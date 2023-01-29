@@ -1,11 +1,11 @@
 @font-face {
   font-family: inter;
-  src: url(fonts/Inter.ttf);
+  src: url(Inter Regular 400.otf);
 }
 
 @font-face {
   font-family: semibold;
-    src: url(FontsFree-Net-Inter-Medium.ttf);
+    src: url(Inter-Medium.otf);
 }
 
 * {
