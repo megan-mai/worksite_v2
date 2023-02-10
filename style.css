@@ -23,7 +23,6 @@ text-decoration-color: lightgrey;
 
 .previously:hover{
   text-decoration-color: black;
-
 }
 
 a {
@@ -71,7 +70,7 @@ a:hover {
   height: auto;
   border-radius: 7px;
   background-color: #bdcbc8;
-  padding: 8px 2px 2px 2px;
+  padding: 8px 4px 2px 4px;
   margin: 0px 12px 12px 0px;
 }
 .bio, .content {
@@ -87,6 +86,24 @@ a:hover {
   -o-animation: fadein 2s;
 
   animation: fadein 2s;
+}
+
+.box-shadow-transition {
+   -webkit-transition: all 0.50s ease-in-out;
+  -moz-transition: all 0.50s ease-in-out;
+  -ms-transition: all 0.50s ease-in-out;
+  -o-transition: all 0.50s ease-in-out;
+}
+.box-shadow-below {
+  /* -webkit-box-shadow: 0 8px 12px -6px black;
+   -moz-box-shadow: 0 8px 12px -6px black; */
+   box-shadow: 0 2px 12px -6px lightgrey;
+}
+.box-shadow-below-hover:hover {
+    transform: translateY(-0.5em);
+  /* -webkit-box-shadow: 0 12px 18px -12px black;
+     -moz-box-shadow: 0 12px 18px -6px black; */
+          box-shadow: 0 12px 26px -10px grey;
 }
 
 body {
@@ -303,8 +320,7 @@ img {
   /* border-style: solid; */
   border-width: 1.2px;
   border-radius: 0px;
-  width: 100%;
-  padding-bottom: 4px;
+  max-width:100%;
   justify-content: center;
 }
 
@@ -322,6 +338,7 @@ video {
 .thumbnail{
   border-radius: 7px;
    transition: 0.2s;
+   background-color: #d3d3d3;
 }
 
 .thumbnail:hover{
