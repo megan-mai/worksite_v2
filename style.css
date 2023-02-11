@@ -95,14 +95,14 @@ a:hover {
   -o-transition: all 0.50s ease-in-out;
 }
 .box-shadow-below {
-  /* -webkit-box-shadow: 0 8px 12px -6px black;
-   -moz-box-shadow: 0 8px 12px -6px black; */
+  -webkit-box-shadow:  0 2px 12px -6px lightgrey;
+   -moz-box-shadow:  0 2px 12px -6px lightgrey;
    box-shadow: 0 2px 12px -6px lightgrey;
 }
 .box-shadow-below-hover:hover {
     transform: translateY(-0.5em);
-  /* -webkit-box-shadow: 0 12px 18px -12px black;
-     -moz-box-shadow: 0 12px 18px -6px black; */
+  -webkit-box-shadow: 0 12px 26px -10px grey;
+     -moz-box-shadow: 0 12px 26px -10px grey;
           box-shadow: 0 12px 26px -10px grey;
 }
 
