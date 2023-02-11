@@ -21,6 +21,7 @@ svg{
   opacity: 1;
 }
 .previously{
+display: inline;
 text-decoration: underline;
 text-decoration-color: lightgrey;
 }
@@ -30,7 +31,7 @@ text-decoration-color: lightgrey;
 }
 
 a {
-  
+
   color: black;
   text-decoration: none;
   /* font-style: oblique;
@@ -529,9 +530,10 @@ video{
 }
 
 .info{
-  display: flex;
+  display: inline;
   justify-content: start;
 }
+
 
 .mobileicon{
   margin-right: 18px;
